@@ -1,7 +1,7 @@
 // FUNCTION IMPLEMENTATION
 const successEmoji = "✅✅✅";
 const failedEmoji = "❌❌❌";
-const assertArraysEqual = function (arr1, arr2) {
+const assertArraysEqual = function(arr1, arr2) {
 //   console.log(arr1, arr2);
   const isEqual = eqArrays(arr1, arr2);
 
@@ -12,7 +12,7 @@ const assertArraysEqual = function (arr1, arr2) {
   }
 };
 
-const eqArrays = function (arr1, arr2) {
+const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return false;
   }
@@ -26,7 +26,7 @@ const eqArrays = function (arr1, arr2) {
 };
 
 //----------- FUNCTION IMPLEMENTATION --------------//
-const middle = function (arr) {
+const middle = function(arr) {
   let middleIndex;
   let newArr;
   const emptyArr = [];
