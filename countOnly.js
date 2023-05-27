@@ -1,7 +1,7 @@
 // FUNCTION IMPLEMENTATION
 const successEmoji = "✅✅✅";
 const failedEmoji = "❌❌❌";
-const assertEqual = function (actual, expected) {
+const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`${successEmoji} Assertion Passed: ${actual} === ${expected}`);
   } else {
@@ -11,7 +11,7 @@ const assertEqual = function (actual, expected) {
 
 // allItems: an array of strings that we need to look through
 // itemsToCount: an object specifying what to count
-const countOnly = function (allItems, itemsToCount) {
+const countOnly = function(allItems, itemsToCount) {
   let returnObj = {};
 
   for (const item in itemsToCount) {
