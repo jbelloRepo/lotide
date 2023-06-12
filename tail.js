@@ -1,5 +1,5 @@
 // FUNCTION IMPLEMENTATION
-const tail = function (arr) {
+const tail = function(arr) {
   if (arr.length === 1) {
     console.log("The array has no tail");
     return [];
