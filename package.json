@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "@jbello/lotide": "lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "The Lotide project is inspired by the Lodash project, which is a utility library for JavaScript. While Lodash itself is quite powerful, our version of it is simpler in order to focus on learning the fundamentals of programming and data management using JavaScript.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
+  "author": "Jbello",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.3.7",
