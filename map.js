@@ -1,7 +1,7 @@
 // FUNCTION IMPLEMENTATION
 const successEmoji = "✅✅✅";
 const failedEmoji = "❌❌❌";
-const assertArraysEqual = function (arr1, arr2) {
+const assertArraysEqual = function(arr1, arr2) {
   const isEqual = eqArrays(arr1, arr2);
 
   if (isEqual) {
@@ -11,7 +11,7 @@ const assertArraysEqual = function (arr1, arr2) {
   }
 };
 
-const eqArrays = function (arr1, arr2) {
+const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return false;
   }
@@ -29,7 +29,7 @@ const eqArrays = function (arr1, arr2) {
 // takes in array and callback function
 const words = ["ground", "control", "to", "major", "tom"];
 
-const map = function (array, callback) {
+const map = function(array, callback) {
   const results = [];
   for (let item of array) {
     results.push(callback(item));
