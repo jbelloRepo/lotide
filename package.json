@@ -1,6 +1,6 @@
 {
   "name": "@jbello/lotide",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The Lotide project is inspired by the Lodash project, which is a utility library for JavaScript.",
   "main": "index.js",
   "directories": {
