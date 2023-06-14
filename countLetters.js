@@ -1,21 +1,17 @@
-// FUNCTION IMPLEMENTATION
-const successEmoji = "✅✅✅";
-const failedEmoji = "❌❌❌";
-const assertEqual = function (actual, expected) {
-  if (actual === expected) {
-    console.log(`${successEmoji} Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`${failedEmoji} Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
+/**
+ * Description: The function should take in a sentence (as a string)
+ * and then return a count of each of the letters in that sentence.
+ * For example, countLetters('LHL') should return results indicating
+ * that L appears twice, and H once.
+ */
 
-const countLetters = function (varString) {
+// FUNCTION IMPLEMENTATION
+const countLetters = function(varString) {
   let arrayTracker = [];
   let returnObj = {};
   for (let str of varString) {
     let itemCount = 0;
     if (str !== " ") {
-      //   console.log(str);
       if (!arrayTracker.includes(str)) {
         for (let str2 of varString) {
           if (str2 === str) {
@@ -27,8 +23,8 @@ const countLetters = function (varString) {
       }
     }
   }
-  console.log(returnObj);
   return returnObj;
 };
 
-countLetters("lighthouse in the house");
+module.exports = countLetters;
+
