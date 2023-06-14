@@ -63,7 +63,7 @@ const eqObjects = function (object1, object2) {
 };
 
 // FUNCTION IMPLEMENTATION
-const assertObjectsEqual = function (actual, expected) {
+const assertObjectsEqual = function(actual, expected) {
   //call the inspect function in the util library
   const inspect = require("util").inspect;
   const isEqual = eqObjects(actual, expected); // call eq function
